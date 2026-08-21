@@ -31,7 +31,7 @@ To be available soon
    
    <table>
   <tr>
-    <td rowspan="3"><code>Profile_Px</code></td>
+    <td rowspan="4"><code>Profile_Px</code></td>
     <td>$P_x$</td>
     <td>$[z, P_x]$ (experimentally measured EFISH and normalized $z'$; dim: [109,2])</td>
   </tr>
@@ -40,7 +40,7 @@ To be available soon
     <td>The phase mismatch value along $z$; dim: [109,1]</td>
   </tr>
   <tr>
-    <td>$\text{label_cls}$</td>
+    <td>\textit{label_cls}</td>
     <td>Polarization labels: 0-vertical, 1-horizontal; dim: [109,1]</td>
   </tr>
   <tr>
