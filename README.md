@@ -40,7 +40,7 @@ To be available soon
     <td>The phase mismatch value along $z$; dim: [109,1]</td>
   </tr>
   <tr>
-    <td>$label_cls$</td>
+    <td>$\text{label_cls}$</td>
     <td>Polarization labels: 0-vertical, 1-horizontal; dim: [109,1]</td>
   </tr>
   <tr>
