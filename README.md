@@ -12,7 +12,7 @@ To be available soon
 2. Then further normalize the $z/z_R$ by dividing $z_\mathrm{scale} = 50$, then the input grid should be:
    $z^\prime = z/z_R/50 = [-50:2:-24 \, -22:1:-16 \, -15:0.5:-1.5 \, -1:0.2:1 \, 1.5:0.5:15 \, 16:1:22 24:2:50]/50$; <br>
 
-**Note 1**: $z^\prime \in [-1,1]$; crop the input EFISH profile if the normalized and scaled range (z/z_R/50) goes beyond this range. <br>
+**Note 1**: $z^\prime \in [-1,1]$; crop the input EFISH profile if the normalized and scaled range ($z/z_\mathrm{R}/50$) goes beyond this range. <br>
 
 **Note 2**: The sampling grid outside your experiment range could be set to zero, as the DDON accepts zero input outside the key feature range. For how to quantify the key range, please refer to our paper. Please ensure the input range is no less than 4.2*FWHM of your input EFISH profile (normalized), although sometimes a smaller sampling range than the criterion also works. <br>
 
