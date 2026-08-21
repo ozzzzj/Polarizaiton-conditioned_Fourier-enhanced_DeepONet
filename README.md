@@ -19,7 +19,7 @@ To be available soon
 3. Normalize the measured EFISH profile (along the laser propagation axis, $z$) by its maximum:
    $P_\mathrm{norm}(z) = P(z)/P_\mathrm{max}$ <br>
 
-4. Estimate the phase mismatch value $u$ through the wave-factor mismatch $\Delta k$ and Rayleigh range $z_\mathrm{R}$, and normalize it as input:
+4. Estimate the phase mismatch value $u$ through the wave-factor mismatch $\Delta k$ and Rayleigh range $z_\mathrm{R}$, and normalize it as input: <br>
    $u^\prime$ = $\Delta k \cdot z_\mathrm{R}$/-1. <br>
    **Note**: -1 is the min $u$ value from the training dataset; if you retrain the model, please use the min $u$ from your own dataset. <br>
 
