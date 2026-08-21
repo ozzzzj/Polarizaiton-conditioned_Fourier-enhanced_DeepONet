@@ -27,3 +27,25 @@ To be available soon
 
 6. Import the MAT file as structure files and obtain the prediction. Or you can modify the code to fit your data structure as well.
 
+   The MAT file structure is as follows:<br>
+   
+   <table>
+  <tr>
+    <td rowspan="3"><code>Profile_Px</code></td>
+    <td>$P_x$</td>
+    <td>$[z, P_x]$ (experimentally measured EFISH and normalized $z'$; dim: [109,2])</td>
+  </tr>
+  <tr>
+    <td>$u$</td>
+    <td>The phase mismatch value along $z$; dim: [109,1]</td>
+  </tr>
+  <tr>
+    <td>$label_cls$</td>
+    <td>Polarization labels: 0-vertical, 1-horizontal; dim: [109,1]</td>
+  </tr>
+  <tr>
+    <td>$E_x$</td>
+    <td>The electric field value along $z$; dim: [109,1]</td>
+  </tr>
+</table>
+
